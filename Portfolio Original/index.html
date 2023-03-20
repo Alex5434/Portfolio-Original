@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image" href="/images/modified.jpeg">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+        emailjs.init('jt2lifTm3oZK1KIH3');
+    })();
+    </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Tech</title>
+</head>
+<body id="body">
+  <div class="container">
+
+    <!-- NavBar  -->
+  <nav class="">
+    <section>
+    <img src="/images/logo-removebg-preview.png" alt="">
+    <div class="logo">
+      <div class="bor">
+        <a href="https://twitter.com/Alexand06656824">
+          <iconify-icon class="ico" icon="mdi:twitter"></iconify-icon>
+        </a>
+      </div>
+      <div class="bor">
+        <a href="https://www.linkedin.com/in/alexander-e-005a16202/">
+        <iconify-icon class="ico" icon="akar-icons:linkedin-fill"></iconify-icon>
+      </a>
+      </div>
+      <div class="bor">
+        <a href="https://github.com/Alex5434">
+        <iconify-icon class="ico git" icon="bxl:github"></iconify-icon>
+      </a>
+      </div>
+    </div>
+    </section>
+    <ul class="list">
+      
+      <li>
+        <a href="#home"  class="active">Home</a>
+      </li>
+      
+      <li>
+        <a href="#about" >About</a>
+      </li>
+      
+      <li>
+        <a href="#projects" >Projects</a>
+      </li>
+      
+      <li>
+        <a href="#skills" >Skills</a>
+      </li>
+      
+      <li>
+        <a href="#contact" >Contact</a>
+      </li>
+    </ul>
+    <button class="men-btn" onclick="HandleToggle()">
+    <iconify-icon class="menu-btn" icon="bytesize:menu"></iconify-icon>
+  </button>
+  </nav>
+
+  <!-- Entrance Page  -->
+  <div id="home" class="back section">
+    <div class="content">
+    <h3>Welcome to my Portfolio</h3>
+    <h1>Hi, I'm Alex <br><span class="ran"></span> </h1>
+   
+    <button class="explore" onclick="window.location.href='#about'" >Explore <iconify-icon class="arr" icon="akar-icons:arrow-right"></iconify-icon></button>
+    <button class="backtotop" onclick="document.documentElement.scrollTop=0"><iconify-icon icon="mdi:arrow-up"></iconify-icon></button>
+  </div>
+  </div>
+
+  <!-- About me -->
+  <div class="about section" id="about">
+    <h1 data-aos="fade-up" data-aos-duration="1300">About me</h1>
+    <div class="sec" >
+      <img src="/images/dp.jpeg" alt="profile image" data-aos="fade-up" data-aos-duration="1400">
+      <div class="para" data-aos="fade-up" data-aos-duration="1600" >
+      <p>Computer Science Engineer to get myself updated with the upcoming technologies.
+         To make use of my interpersonal and communication skills to achieve goals of a company that focuses.
+          Looking for a role where I can use my analytical skills to enhance my career. 
+        </p>
+        <a  href="/document/ALEXANDER E.pdf" download>
+         <button >RESUME 
+        </button> </a>
+        </div>
+    </div>
+  </div>
+
+  <!-- Projects  -->
+  <div class="projects section" id="projects">
+    <h1>Projects</h1>
+    <h2 class="devpro">Development Projects</h2>
+    <div class="cards">
+      <div data-aos="fade-up" data-aos-duration="1500" >
+      
+        <div class="card" >
+          <img src="/images/Task manager.png" alt="">
+          <h3>Task Manager</h3>
+          <div class="languages">
+            <p>MERN</p>
+          </div>
+          <div class="btn">        
+          <button onclick="window.location.href='https://nodetaskapp.onrender.com/'">Readmore</button>
+          <a href="https://github.com/Alex5434/First-Node-App" target="_blank" class="git"><button class="btn-git">GitHub <iconify-icon icon="mdi:link-variant"></iconify-icon></button> </a>
+        </div>
+        </div>
+  </div>
+      <div data-aos="fade-up" data-aos-duration="1500" >
+      
+      <div class="card" >
+        <img src="/images/Resume Bulder.jpeg" alt="">
+        <h3>Resume Builder</h3>
+        <div class="languages">
+          <p>html</p>
+          <p>css</p>
+          <p>php</p>
+          <p>Js</p>
+        </div>
+        <div class="btn">        
+        <button onclick="window.location.href='projects.html'">Readmore</button>
+        <a href="https://github.com/Alex5434/" target="_blank" class="git"><button class="btn-git">GitHub <iconify-icon icon="mdi:link-variant"></iconify-icon></button> </a>
+      </div>
+      </div>
+</div>
+      <div data-aos="fade-up" data-aos-duration="1500" >
+
+      <div class="card" >
+        <img src="/images/new portfolio.png" alt="">
+        <h3>New Portfolio</h3>
+        <div class="languages">
+          <p>html</p>
+          <p>css</p>
+          <p>Js</p>
+        </div>
+        <div class="btn">
+        <button onclick="window.location.href='projects.html'">Readmore</button>
+        <a href="https://github.com/Alex5434/portfolio" target="_blank" class="git"><button class="btn-git">GitHub <iconify-icon icon="mdi:link-variant"></iconify-icon></button> </a>
+      </div>
+      </div>
+</div>
+<div data-aos="fade-up" data-aos-duration="1500" >
+
+      <div class="card" >
+        <img src="/images/Hospital-Management-System.jpg" alt="">
+        <h3>Hospital Management</h3>
+        <div class="languages">
+          <p>java</p>
+        </div>
+        <div class="btn">        
+        <button onclick="window.location.href='projects.html'">Readmore</button>
+        <a href="https://github.com/Alex5434/Hospital-Management" target="_blank" class="git"><button class="btn-git">GitHub <iconify-icon icon="mdi:link-variant"></iconify-icon></button> </a>
+      </div>
+      </div>
+</div>
+      <div data-aos="fade-up" data-aos-duration="1500" >
+
+      <div class="card" >
+        <img src="/images/water tank.png" alt="">
+        <h3>Home Automation</h3>
+        <div class="languages">
+          <p>Arduino Sketch</p>
+        </div>
+        <div class="btn">        
+        <button onclick="window.location.href='projects.html'">Readmore</button>
+        <a href="https://github.com/Alex5434/HomeAutomation-using-Arduino" target="_blank" class="git"><button class="btn-git">GitHub <iconify-icon icon="mdi:link-variant"></iconify-icon></button> </a>
+      </div>
+      </div>
+</div>
+      <div data-aos="fade-up" data-aos-duration="1500" >
+
+      <div class="card" >
+        <img src="/images/old portfolio.png" alt="">
+        <h3>Old Portfolio</h3>
+        <div class="languages">
+          <p>html</p>
+          <p>css</p>
+        </div>
+        <div class="btn">        
+        <button onclick="window.location.href='https://alexprofile.netlify.app/'">Readmore</button>
+        <a href="https://github.com/Alex5434/myFirstPortfolio" target="_blank" class="git"><button class="btn-git">GitHub <iconify-icon icon="mdi:link-variant"></iconify-icon></button> </a>
+      </div>
+      </div>
+      
+      </div>
+      </div>
+      <h2 class="devpro">Desgin Projects</h2>
+      <div class="cards">
+
+      
+      <div data-aos="fade-up" data-aos-duration="1500" >
+
+        <div class="card" >
+          <img src="/images/new portfolio.png" alt="">
+          <h3>Portfolio Design</h3>
+          <div class="btn">        
+          <button class="fig" onclick="window.location.href='https://www.figma.com/file/g6SW7jnPAyMulWyPKq9OBk/NEW-PROFILE?node-id=0%3A1&t=26IjUzpjGHoplbsZ-1'">Figma <iconify-icon icon="cib:figma"></iconify-icon></button>
+          <a href="https://www.figma.com/proto/g6SW7jnPAyMulWyPKq9OBk/NEW-PROFILE?node-id=1%3A4" target="_blank" class="git"><button class="btn-git">Live<iconify-icon icon="fluent:live-24-filled"></iconify-icon></button> </a>
+        </div>
+        </div>
+        
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1500" >
+
+          <div class="card" >
+            <img src="/images/soe tool.png" alt="seotool">
+            <h3>SEO Tool Design</h3>
+            <div class="btn">        
+            <button class="fig" onclick="window.location.href='https://www.figma.com/file/oEkZ1HqbyKOvlNLrMHbCoo/Blackcoffer-SEO?node-id=0%3A1&t=1oQY43LUprdDLWy1-1'">Figma <iconify-icon icon="cib:figma"></iconify-icon></button>
+            <a href="https://www.figma.com/proto/oEkZ1HqbyKOvlNLrMHbCoo/Blackcoffer-SEO?node-id=12%3A17&starting-point-node-id=12%3A17" target="_blank" class="git"><button class="btn-git">Live<iconify-icon icon="fluent:live-24-filled"></iconify-icon></button> </a>
+          </div>
+          </div>
+          
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1500" >
+
+            <div class="card" >
+              <img src="/images/Hero.png" alt="">
+              <h3>Hero Motocorp app</h3>
+              <div class="btn">        
+              <button class="fig" onclick="window.location.href='https://www.figma.com/file/VpR2ajFwRJKl7vfRHLKFfE/hero-first?node-id=0%3A1&t=1oQY43LUprdDLWy1-1'">Figma <iconify-icon icon="cib:figma"></iconify-icon></button>
+              <a href="https://www.figma.com/proto/VpR2ajFwRJKl7vfRHLKFfE/hero-first?node-id=106%3A56&scaling=scale-down&page-id=0%3A1&starting-point-node-id=106%3A56" target="_blank" class="git"><button class="btn-git">Live<iconify-icon icon="fluent:live-24-filled"></iconify-icon></button> </a>
+            </div>
+            </div>
+            
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500" >
+
+              <div class="card" >
+                <img src="/images/Ev.png" alt="">
+                <h3>EV Vehicle</h3>
+                <div class="btn">        
+                <button class="fig" onclick="window.location.href='https://www.figma.com/file/hzhpARmXXE2rJNv56cavFj/Ev-vehilce-Landing-Page?node-id=0%3A1&t=ig7EamKeCwLsVvI6-1'">Figma <iconify-icon icon="cib:figma"></iconify-icon></button>
+                <a href="https://www.figma.com/proto/hzhpARmXXE2rJNv56cavFj/Untitled?scaling=min-zoom&page-id=0%3A1&node-id=2%3A2" target="_blank" class="git"><button class="btn-git">Live<iconify-icon icon="fluent:live-24-filled"></iconify-icon></button> </a>
+              </div>
+              </div>
+              
+              </div>
+      </div>
+  </div>
+
+  <!-- Skills -->
+  
+  <div class="skills section" id="skills">
+    <h1>skills</h1>
+    <div class="program">
+      
+      <div class="head">
+        <div></div>
+      <h3>Programming & Scripting</h3>
+      </div>
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>Html & css</p>
+        <div class="progress">
+          <div class="indi" style="width: 95%;"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>java</p>
+        <div class="progress">
+          <div class="indi" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>m<span style="text-transform:lowercase">y</span>sql</p>
+        <div class="progress">
+          <div class="indi" style="width: 65%;"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>javascript</p>
+        <div class="progress">
+          <div class="indi" style="width: 65%;"></div>
+        </div>
+      </div>
+
+      
+
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>react</p>
+        <div class="progress">
+          <div class="indi" style="width: 55%;"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>node/express</p>
+        <div class="progress">
+          <div class="indi" style="width: 45%;"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-aos="fade-right" data-aos-duration="1500">
+        <p>mongodb</p>
+        <div class="progress">
+          <div class="indi" style="width: 45%;"></div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="tools">
+      
+      <div class="head">
+        <div></div>
+      <h3>Tools & software</h3>
+      </div>
+      
+
+      <div class="tool" data-aos="fade-right" data-aos-duration="1500">
+        <p>figma</p>
+        <div class="progress">
+          <div class="indi" style="width: 80%;"></div>
+        </div>
+      </div>
+
+        <div class="tool" data-aos="fade-right" data-aos-duration="1500">
+          <p>Postman</p>
+          <div class="progress">
+            <div class="indi" style="width: 65%;"></div>
+          </div>
+        </div>
+
+        <div class="tool" data-aos="fade-right" data-aos-duration="1500">
+          <p>git</p>
+          <div class="progress">
+            <div class="indi" style="width: 52%;"></div>
+          </div>
+        </div>
+
+        <div class="tool" data-aos="fade-right" data-aos-duration="1500">
+          <p>photoshop</p>
+          <div class="progress">
+            <div class="indi" style="width: 40%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- contact form -->
+  <div class="contact section" id="contact">
+    <h1>Contact Me</h1>
+    <div class="whole">
+    <div class="for">
+      <h3>Send me a message</h3>
+      <form action="#" class="contact_form">
+        <div class="tags">
+          <label for="">Name*</label>
+          <input id="fromname" type="text" required>
+       </div>
+       <div class="tags">
+        <label for="">Email*</label>
+        <input id="email_id" type="email" required>
+     </div>
+     <div class="tags">
+      <label for="">Phone*</label>
+      <input id="phone" type="number" required>
+     </div>
+     <div class="tags">
+     <label for="">Message*</label>
+     <textarea name="" id="message" id="" columns="35" rows="1"></textarea>
+     </div> 
+     <button type="submit" onclick="sendMail()">Submit</button>
+      </form>
+
+     
+    </div>
+
+    <div class="info">
+      <h3>General information</h3>
+      <div class="in">
+        <iconify-icon icon="entypo:location-pin"></iconify-icon>
+        <p>9/136-3, Thathanur, Udayarpalaym, Ariyalur, Tamil Nadu, 621 804</p>
+      </div>
+      <div class="in">
+        <iconify-icon icon="carbon:phone-filled"></iconify-icon>
+        <p>+91 9384956592</p>
+      </div>
+      <div class="in">
+        <iconify-icon icon="dashicons:email-alt"></iconify-icon>
+        <p>ezhil2744@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="views">
+    <p>This page has</p>
+    <div>
+    <h1 id="count">0</h1>
+    <h1>+</h1>
+  </div>
+    <p>views</p>
+  </div>
+  <!-- fooder -->
+  <div class="fooder">
+    <div class="fi">
+      <h1>Alex <span>Tech</span></h1>
+      <div class="logo">
+
+
+        <a href="https://twitter.com/Alexand06656824">
+        <div class="bor">
+          <iconify-icon class="ico" icon="mdi:twitter"></iconify-icon>
+        </div>
+        </a>
+        <a href="https://www.linkedin.com/in/alexander-e-005a16202/">
+        <div class="bor">
+          <iconify-icon class="ico" icon="akar-icons:linkedin-fill"></iconify-icon>
+        </div>
+        </a>
+        <a href="https://github.com/Alex5434">
+        <div class="bor">
+          <iconify-icon class="ico git" icon="bxl:github"></iconify-icon>
+        </div>
+        </a>
+        <a href="https://www.instagram.com/alex_54349/">
+        <div class="bor">
+          <iconify-icon class="ico" icon="akar-icons:instagram-fill"></iconify-icon>
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="se">
+      <h2>Design and developed by <span>Alexander..</span></h2 readonly>
+    </div>
+    <div class="th">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="index.js"></script>
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+</body>
+</html>
